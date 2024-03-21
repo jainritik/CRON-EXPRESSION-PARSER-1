@@ -1,0 +1,14 @@
+{
+    "name": "cron-expression-parser",
+    "version": "1.0.0",
+    "description": "A command-line application for parsing cron expressions.",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "test": "jest"
+    },
+    "author": "Ritik Jain",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
