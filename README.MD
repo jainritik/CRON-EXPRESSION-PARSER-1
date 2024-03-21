@@ -2,6 +2,19 @@
 
 This project is a command-line application for parsing cron expressions.
 
+## Assumptions
+
+1.  Assuming that following will be the range:
+    MINUTES(0, 59),
+    HOURS(0, 23),
+    DAY_OF_MONTH(1, 31),
+    MONTH(1, 12),
+    DAY_OF_WEEK(0, 6)
+
+2. there should be atleast 6 spaces in string otherwise we will throw an Error
+
+3. Discrading the invalid dates EX: In April we only have 30 Days so discarding 31st
+
 ## Installation
 
 1. Clone the repository to your local machine:
